@@ -1,0 +1,247 @@
+{
+  "id": "5decaac8-bb41-466f-8f57-bd55a72c0d26",
+  "version": "2.0",
+  "name": "criar_remover_lista",
+  "url": "https://trello.com",
+  "tests": [{
+    "id": "724dc392-e3ab-456c-a845-b0d908562449",
+    "name": "criar_remover_lista",
+    "commands": [{
+      "id": "dbc45817-3a12-4f24-8054-feb3670c3252",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae2f29a3-0cba-45f6-8a19-c2942f175902",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdacd364-d3cc-460c-9aaa-b8e285fcee0f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fazer Login",
+      "targets": [
+        ["linkText=Fazer Login", "linkText"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Fazer Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fazer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2385b744-0a33-424b-a64a-a123135a7691",
+      "comment": "",
+      "command": "type",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "marcos.tads@yahoo.com"
+    }, {
+      "id": "ce6af54d-c0eb-446d-bc29-9f26c3b8c42e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ffa0cdc-431d-4f7c-9b66-8f4a664db7f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "sistematads2021"
+    }, {
+      "id": "3d8881c0-5112-449a-b790-e5f0355d2c9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-t5emrf > span:nth-child(1)",
+      "targets": [
+        ["css=.css-t5emrf > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6045a628-b401-4c51-9e0e-da690ed41bf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a0420e0-70f2-4b27-9701-76f591b3b689",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1-vN8NL177VLaD",
+      "targets": [
+        ["css=.\\_1-vN8NL177VLaD", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/a/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f699b8-d063-4033-8242-309424928d9a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff7c8221-2e1d-4503-8737-e990b928f684",
+      "comment": "",
+      "command": "click",
+      "target": "css=.placeholder",
+      "targets": [
+        ["css=.placeholder", "css:finder"],
+        ["xpath=//div[@id='board']/div[4]/form/a/span", "xpath:idRelative"],
+        ["xpath=//form/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Adicionar outra lista')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c61564bb-e8cd-4a8e-b5a3-eefe983bf376",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.list-name-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form/input", "xpath:position"]
+      ],
+      "value": "Em produção"
+    }, {
+      "id": "c3ce151a-3eb4-4946-8f04-1a52c0ec1499",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nch-button",
+      "targets": [
+        ["css=.nch-button", "css:finder"],
+        ["xpath=//input[@value='Adicionar Lista']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div[4]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74a6b5e1-6a7a-4f3c-97d5-c7f84a142ca7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e35fe98d-5e63-44a5-97ac-f1584900e3f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-list:nth-child(4) .list-header-extras-menu",
+      "targets": [
+        ["css=.js-list:nth-child(4) .list-header-extras-menu", "css:finder"],
+        ["xpath=//div[@id='board']/div[4]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[17]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17382d60-09ef-49a4-a907-6e0973e480bb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d69b8dd-e8f8-405a-9bf2-438a747ff5f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Arquivar Esta Lista",
+      "targets": [
+        ["linkText=Arquivar Esta Lista", "linkText"],
+        ["css=.js-close-list", "css:finder"],
+        ["xpath=//a[contains(text(),'Arquivar Esta Lista')]", "xpath:link"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[44]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Arquivar Esta Lista')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "185c058c-94d8-44d4-877a-3adcab06d9a4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65952e40-0895-40b9-bbd1-75068cf9f10a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_24AWINHReYjNBf",
+      "targets": [
+        ["css=.\\_24AWINHReYjNBf", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5253ec14-0b3f-497b-b99a-158c03c3ec9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(9) .lcLi2SyiMFND91",
+      "targets": [
+        ["css=li:nth-child(9) .lcLi2SyiMFND91", "css:finder"],
+        ["xpath=//li[8]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fazer Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d0268a-c233-4b9c-b165-3adb23b78fb9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(9) .lcLi2SyiMFND91",
+      "targets": [
+        ["css=li:nth-child(9) .lcLi2SyiMFND91", "css:finder"],
+        ["xpath=//li[8]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fazer Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a5a88448-8343-4d8d-a2ba-d5d6fa29b786",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["724dc392-e3ab-456c-a845-b0d908562449"]
+  }],
+  "urls": ["https://trello.com/"],
+  "plugins": []
+}

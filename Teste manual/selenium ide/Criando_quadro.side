@@ -1,0 +1,210 @@
+{
+  "id": "90e6f2ec-b381-4de9-94b5-474b3b52e907",
+  "version": "2.0",
+  "name": "Criando_quadro",
+  "url": "https://trello.com",
+  "tests": [{
+    "id": "ecb299d4-5050-4862-a375-0c325e8b011a",
+    "name": "Criando_quadro",
+    "commands": [{
+      "id": "8ca32ff0-c9e2-45de-91a9-ab22cd20a424",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bffbdcc3-3d59-4411-aace-2e4bc20d4556",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7350703-59fe-4519-a082-591198c42d49",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50881d83-b9b2-436c-97bd-10d5e035d9f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fazer Login",
+      "targets": [
+        ["linkText=Fazer Login", "linkText"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Fazer Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fazer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b65fdc8d-f8f9-432a-aa32-5daf0aa6e340",
+      "comment": "",
+      "command": "type",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "marcos.tads@yahoo.com"
+    }, {
+      "id": "5558c29b-1e73-4158-89a2-904ce160cf4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a2d3e7b-3713-49c7-a4a3-098a22fcc2b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-t5emrf > span:nth-child(1)",
+      "targets": [
+        ["css=.css-t5emrf > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c5c21b1-fc57-4661-9235-b888c10b8ea4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "sistematads2021"
+    }, {
+      "id": "0ba557af-d0d6-44f9-85c9-2de5e1850d81",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.TMI28E0KnYSK9p > .\\_2ZNy4w8Nfa58d1:nth-child(1) .sc-bdVaJa",
+      "targets": [
+        ["css=.TMI28E0KnYSK9p > .\\_2ZNy4w8Nfa58d1:nth-child(1) .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03a78d45-e091-40ea-bb44-8c3cfa98e68c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TMI28E0KnYSK9p > .\\_2ZNy4w8Nfa58d1:nth-child(1) .sc-bdVaJa",
+      "targets": [
+        ["css=.TMI28E0KnYSK9p > .\\_2ZNy4w8Nfa58d1:nth-child(1) .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c5282b0-d8a5-45ee-be3a-7f143fdef8f0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.TMI28E0KnYSK9p > .\\_2ZNy4w8Nfa58d1:nth-child(1) .sc-bdVaJa",
+      "targets": [
+        ["css=.TMI28E0KnYSK9p > .\\_2ZNy4w8Nfa58d1:nth-child(1) .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db75ccf-dcf6-4807-a157-26147096465e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .Puvhv7-oGbJGmR",
+      "targets": [
+        ["css=li:nth-child(1) .Puvhv7-oGbJGmR", "css:finder"],
+        ["xpath=//button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Um quadro é feito de cartões ordenados em listas. Use-o para gerenciar projetos, controlar informações e organizar qualquer coisa.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b83396b4-9c41-43fb-bfe8-dc3ae60baa16",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_23NUW98LaZfBpQ",
+      "targets": [
+        ["css=.\\_23NUW98LaZfBpQ", "css:finder"],
+        ["xpath=//input[@value='TesteBefore']", "xpath:attributes"],
+        ["xpath=//div[@id='layer-manager-overlay']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "TesteBefore"
+    }, {
+      "id": "9351fd65-57b0-42f6-b315-a763f73957f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uj9Ovoj4USRUQz",
+      "targets": [
+        ["css=.uj9Ovoj4USRUQz", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='layer-manager-overlay']/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar Quadro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6c89be6-2ee3-4a9b-bfe1-5b9efd9651f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.board-menu-header-close-button",
+      "targets": [
+        ["css=.board-menu-header-close-button", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d942f98-fba6-45a4-bd3e-f5f7d3cb7f05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_24AWINHReYjNBf",
+      "targets": [
+        ["css=.\\_24AWINHReYjNBf", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5be543c2-2e51-4485-b325-d08d37ba829c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(9) .lcLi2SyiMFND91",
+      "targets": [
+        ["css=li:nth-child(9) .lcLi2SyiMFND91", "css:finder"],
+        ["xpath=//li[8]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fazer Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9d114ee2-c54f-4644-991b-633b381ad2b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ecb299d4-5050-4862-a375-0c325e8b011a"]
+  }],
+  "urls": ["https://trello.com/"],
+  "plugins": []
+}

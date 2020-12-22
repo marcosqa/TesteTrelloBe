@@ -1,0 +1,495 @@
+{
+  "id": "56d7b5de-1d23-46b6-9d63-57d6056378c4",
+  "version": "2.0",
+  "name": "Remover_quadro",
+  "url": "https://trello.com",
+  "tests": [{
+    "id": "d1b3903e-65bc-4c35-aadf-4598ffeb7bf4",
+    "name": "Remover_quadro",
+    "commands": [{
+      "id": "583dd7dd-e778-4bc2-9c14-3ad46065351f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5058016f-6c79-48e4-bdbf-56848f2b09a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x699",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a00a1da3-ab01-4c79-9d3a-0910a6013666",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31ca5cf9-864e-4316-a06e-a687cc9f8598",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fazer Login",
+      "targets": [
+        ["linkText=Fazer Login", "linkText"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Fazer Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fazer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26b45fd4-932d-444f-b223-2568e49f0701",
+      "comment": "",
+      "command": "type",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "marcos.tads@yahoo.com"
+    }, {
+      "id": "aa145b19-92c3-473f-92f1-879f4361d199",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0219e7bb-409a-40e9-ac2b-e730f3c9f8cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-t5emrf > span:nth-child(1)",
+      "targets": [
+        ["css=.css-t5emrf > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8af25aa-cbfd-43a7-a9c5-e67f348d9fae",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "sistematads2021"
+    }, {
+      "id": "f13dd4f6-654c-4dbd-a23e-2fea92681463",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c79dc96-09b9-4c25-a81f-a7174b4946b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1fp0H2u2NFTsxl:nth-child(1) .\\_1sIQ5YokkvsB8Z > .\\_2sW4tjfiXjrots",
+      "targets": [
+        ["css=.\\_1fp0H2u2NFTsxl:nth-child(1) .\\_1sIQ5YokkvsB8Z > .\\_2sW4tjfiXjrots", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cff02fee-2c5b-4e1f-bd78-52cf737d5ef3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mais",
+      "targets": [
+        ["linkText=Mais", "linkText"],
+        ["css=.js-open-more", "css:finder"],
+        ["xpath=//a[contains(text(),'Mais')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Mais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c87a8a1-0da8-4d67-a824-c65c9fbebce8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mais",
+      "targets": [
+        ["linkText=Mais", "linkText"],
+        ["css=.js-open-more", "css:finder"],
+        ["xpath=//a[contains(text(),'Mais')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Mais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecddb15a-7f57-43b1-a665-f6512efcdb7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar Quadro…",
+      "targets": [
+        ["linkText=Fechar Quadro…", "linkText"],
+        ["css=.js-close-board", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar Quadro…')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[19]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Fechar Quadro…')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "992a67b9-e6e8-4723-b7ae-ec8593472446",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Fechar Quadro…",
+      "targets": [
+        ["linkText=Fechar Quadro…", "linkText"],
+        ["css=.js-close-board", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar Quadro…')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[19]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Fechar Quadro…')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "835eff23-2eb1-4ddd-9562-af45dfc3a05c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Fechar Quadro…",
+      "targets": [
+        ["linkText=Fechar Quadro…", "linkText"],
+        ["css=.js-close-board", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar Quadro…')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[19]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Fechar Quadro…')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9adf1162-c115-4e6a-a36e-8fdaa3ac6336",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-confirm",
+      "targets": [
+        ["css=.js-confirm", "css:finder"],
+        ["xpath=//input[@value='Fechar']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a87fe9-c018-400b-abe5-d7a9b3a91a8c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Excluir o quadro permanentemente...",
+      "targets": [
+        ["linkText=Excluir o quadro permanentemente...", "linkText"],
+        ["css=.js-delete", "css:finder"],
+        ["xpath=//a[contains(text(),'Excluir o quadro permanentemente...')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Excluir o quadro permanentemente...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a950894b-c0c8-4d3f-9ff2-abacbc314f0e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Excluir o quadro permanentemente...",
+      "targets": [
+        ["linkText=Excluir o quadro permanentemente...", "linkText"],
+        ["css=.js-delete", "css:finder"],
+        ["xpath=//a[contains(text(),'Excluir o quadro permanentemente...')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Excluir o quadro permanentemente...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d152efd9-2bda-4939-8ccb-4a618d1e213d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Excluir o quadro permanentemente...",
+      "targets": [
+        ["linkText=Excluir o quadro permanentemente...", "linkText"],
+        ["css=.js-delete", "css:finder"],
+        ["xpath=//a[contains(text(),'Excluir o quadro permanentemente...')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Excluir o quadro permanentemente...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c05015-d936-4899-be8b-d96a557d8eb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-confirm",
+      "targets": [
+        ["css=.js-confirm", "css:finder"],
+        ["xpath=//input[@value='Excluir']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fc10f3d-c16f-4951-87ea-488106bacd24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d3a5b2e-f6c5-4047-9a34-39214a30a729",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1fp0H2u2NFTsxl:nth-child(1) .\\_1sIQ5YokkvsB8Z > .\\_2sW4tjfiXjrots",
+      "targets": [
+        ["css=.\\_1fp0H2u2NFTsxl:nth-child(1) .\\_1sIQ5YokkvsB8Z > .\\_2sW4tjfiXjrots", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a5d51a-5e1b-40c2-915b-dbcbe4cb9c31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mais",
+      "targets": [
+        ["linkText=Mais", "linkText"],
+        ["css=.js-open-more", "css:finder"],
+        ["xpath=//a[contains(text(),'Mais')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Mais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71899ba-271f-4204-a85c-ca89eae862d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar Quadro…",
+      "targets": [
+        ["linkText=Fechar Quadro…", "linkText"],
+        ["css=.js-close-board", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar Quadro…')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[19]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Fechar Quadro…')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae047b8-94b1-4b10-920b-45d779d302d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-confirm",
+      "targets": [
+        ["css=.js-confirm", "css:finder"],
+        ["xpath=//input[@value='Fechar']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2acfe3cb-d415-4585-8410-f7816d8e5aea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Excluir o quadro permanentemente...",
+      "targets": [
+        ["linkText=Excluir o quadro permanentemente...", "linkText"],
+        ["css=.js-delete", "css:finder"],
+        ["xpath=//a[contains(text(),'Excluir o quadro permanentemente...')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Excluir o quadro permanentemente...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "260a02ce-f1e2-4628-a62f-15762186cd1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-confirm",
+      "targets": [
+        ["css=.js-confirm", "css:finder"],
+        ["xpath=//input[@value='Excluir']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "914385f9-b065-4d73-8342-3fa4a2412969",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8aeb653-fdf6-4e2a-b1bc-5fe87b9a774a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1sIQ5YokkvsB8Z > .\\_2sW4tjfiXjrots",
+      "targets": [
+        ["css=.\\_1sIQ5YokkvsB8Z > .\\_2sW4tjfiXjrots", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9455d61-fb9e-43e1-8607-039dad9633f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b44edef-a879-4b64-848c-5cb76853d743",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mais",
+      "targets": [
+        ["linkText=Mais", "linkText"],
+        ["css=.js-open-more", "css:finder"],
+        ["xpath=//a[contains(text(),'Mais')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[25]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Mais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fbb4039-5f62-4183-944b-fdd122e6fd0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar Quadro…",
+      "targets": [
+        ["linkText=Fechar Quadro…", "linkText"],
+        ["css=.js-close-board", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar Quadro…')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Fechar Quadro…')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b022da-1c52-4f09-8b96-129730a6b464",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-confirm",
+      "targets": [
+        ["css=.js-confirm", "css:finder"],
+        ["xpath=//input[@value='Fechar']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb82f776-a780-4c82-81ff-919d7d157009",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Excluir o quadro permanentemente...",
+      "targets": [
+        ["linkText=Excluir o quadro permanentemente...", "linkText"],
+        ["css=.js-delete", "css:finder"],
+        ["xpath=//a[contains(text(),'Excluir o quadro permanentemente...')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Excluir o quadro permanentemente...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "011c0baf-ef47-42bf-8885-d2071f5c9c20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-confirm",
+      "targets": [
+        ["css=.js-confirm", "css:finder"],
+        ["xpath=//input[@value='Excluir']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[4]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edfe8805-a611-490b-b34d-62962c1b6d68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2846c3d5-a1fc-400c-b0f2-24a5224702a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_24AWINHReYjNBf",
+      "targets": [
+        ["css=.\\_24AWINHReYjNBf", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5988e35-2a4c-4bba-99da-23297f68b7b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(9) .lcLi2SyiMFND91",
+      "targets": [
+        ["css=li:nth-child(9) .lcLi2SyiMFND91", "css:finder"],
+        ["xpath=//li[8]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fazer Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a2ae5237-181f-4734-8655-77cb3684a0d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d1b3903e-65bc-4c35-aadf-4598ffeb7bf4"]
+  }],
+  "urls": ["https://trello.com/"],
+  "plugins": []
+}

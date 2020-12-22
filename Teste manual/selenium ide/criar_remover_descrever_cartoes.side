@@ -1,0 +1,346 @@
+{
+  "id": "4ee90ed8-0e25-482a-9be1-1404a830d52e",
+  "version": "2.0",
+  "name": "criar_remover_descrever_cartoes",
+  "url": "https://trello.com",
+  "tests": [{
+    "id": "1f483927-fdc5-4dcc-a89e-3057babca5e6",
+    "name": "criar_remover_descrever_cart",
+    "commands": [{
+      "id": "f257fe67-5196-4bb8-b179-5aa3f20a87f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29eefcf3-dccf-4deb-8e01-dc0c3acca6c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b000ff69-b3d1-4918-9caa-f8ca57719f5b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Fazer Login",
+      "targets": [
+        ["linkText=Fazer Login", "linkText"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Fazer Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fazer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e820f4c-db32-445b-b98a-635fd0d9856b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fazer Login",
+      "targets": [
+        ["linkText=Fazer Login", "linkText"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Fazer Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fazer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b961f570-03e8-4007-8ec5-bf7434cce328",
+      "comment": "",
+      "command": "type",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "marcos.tads@yahoo.com"
+    }, {
+      "id": "8708fc45-99c7-4145-9999-006f7183c4d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "490e0b4e-a966-43c2-8148-a48999a7bb28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-t5emrf > span:nth-child(1)",
+      "targets": [
+        ["css=.css-t5emrf > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='login-submit']/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a915ee-cef1-466a-ba4f-5c19da30b149",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3IkOtLubuAF6kK > .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49de32cb-0ac4-45e9-abdc-49a26c4c6af4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1-vN8NL177VLaD",
+      "targets": [
+        ["css=.\\_1-vN8NL177VLaD", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/a/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e4755f0-b688-4082-b350-5a6913f34d37",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4aba55e8-973e-46fd-b228-5790c227b2a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-list:nth-child(1) .js-add-a-card",
+      "targets": [
+        ["css=.js-list:nth-child(1) .js-add-a-card", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Adicionar um cartão')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ad1d8d-b1a1-4f53-9846-fbf6a4e72089",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-list:nth-child(1) .js-add-a-card",
+      "targets": [
+        ["css=.js-list:nth-child(1) .js-add-a-card", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Adicionar um cartão')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1326ba0d-50df-4fa6-b8f8-553e2df5a8e7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hide > .js-add-a-card",
+      "targets": [
+        ["css=.hide > .js-add-a-card", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Adicionar um cartão')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45805ba6-5226-4c52-8ca3-064903ad7313",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "573ef231-7874-4e0d-8c2c-1f4699f061c5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.list-card-composer-textarea",
+      "targets": [
+        ["css=.list-card-composer-textarea", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/textarea", "xpath:position"]
+      ],
+      "value": "Automatizar os testes"
+    }, {
+      "id": "b76d5280-deef-478f-b467-cfe2c4621aff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//input[@value='Adicionar Cartão']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7314907-f4bc-4ebf-8f3b-3d9ecd2c836b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7695c9f4-78f3-4f88-bdb6-b4e5cfaf8b7a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.list-card-composer-textarea",
+      "targets": [
+        ["css=.list-card-composer-textarea", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/textarea", "xpath:position"]
+      ],
+      "value": "Testar"
+    }, {
+      "id": "5eeea5d3-e451-4352-9a23-df3294077dc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//input[@value='Adicionar Cartão']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bcb7bf5-a1ba-4237-9245-0afcfa54a7d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e87f29ab-a933-446d-b447-cbbd5fca5023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-card > .icon-sm",
+      "targets": [
+        ["css=.active-card > .icon-sm", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9e1b4f-e764-4627-9365-7f59d0708818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-card-edit-title",
+      "targets": [
+        ["css=.list-card-edit-title", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div[7]/div/div/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970644ea-2f00-4d1d-9704-0f9cb361a403",
+      "comment": "",
+      "command": "type",
+      "target": "css=.list-card-edit-title",
+      "targets": [
+        ["css=.list-card-edit-title", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div[7]/div/div/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/textarea", "xpath:position"]
+      ],
+      "value": "Testar no console"
+    }, {
+      "id": "e1424503-24b0-4c16-b111-c211786a24e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wide",
+      "targets": [
+        ["css=.wide", "css:finder"],
+        ["xpath=//input[@value='Salvar']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-container']/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "974d4df9-abb4-4302-9ca2-f6e981ce0a33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-card > .icon-sm",
+      "targets": [
+        ["css=.active-card > .icon-sm", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbcdc747-f908-4c34-a9d4-8bc5eedc159a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-archive > .quick-card-editor-buttons-item-text",
+      "targets": [
+        ["css=.js-archive > .quick-card-editor-buttons-item-text", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div[7]/div/div[2]/a[6]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[6]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Arquivar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a423b2a-f00b-4a8b-9aed-401273ad6b0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-edit",
+      "targets": [
+        ["css=.icon-edit", "css:finder"],
+        ["xpath=//div[@id='board']/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5226cc63-5eeb-48a4-8215-1a9a86dc5efb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-archive > .quick-card-editor-buttons-item-text",
+      "targets": [
+        ["css=.js-archive > .quick-card-editor-buttons-item-text", "css:finder"],
+        ["xpath=//div[@id='chrome-container']/div[7]/div/div[2]/a[6]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[6]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Arquivar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c90c3f-6d03-4360-ba79-387eaeddf729",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_24AWINHReYjNBf",
+      "targets": [
+        ["css=.\\_24AWINHReYjNBf", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cca1bd3d-13f9-486f-88d9-c6fce844ecd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(9) .lcLi2SyiMFND91",
+      "targets": [
+        ["css=li:nth-child(9) .lcLi2SyiMFND91", "css:finder"],
+        ["xpath=//li[8]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fazer Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "932ba051-558f-4533-bfaf-558b803dff5b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1f483927-fdc5-4dcc-a89e-3057babca5e6"]
+  }],
+  "urls": ["https://trello.com/"],
+  "plugins": []
+}
